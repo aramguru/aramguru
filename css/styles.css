@@ -1,0 +1,338 @@
+body {
+	background-color: #0d041c;
+	color: #d4c2f9;
+}
+
+.logo {
+	text-align: center;
+}
+
+.divider {
+	background-color: rgba(255,255,255,0.25);
+	border: 1px solid rgba(0,0,0,0.2);
+	/* box-shadow: 0 0 4px rgba(255,255,255,0.5); */
+	margin: 1rem 0;
+	height: 3px;
+}
+
+li {
+	margin-bottom: 1rem;
+}
+
+.text-red {
+	color: #e96d94;
+}
+
+.container {
+	max-width: 720px;
+}
+
+#about .title {
+	text-align: center;
+	font-size: 2rem;
+	margin: 2rem 0;
+}
+#about .content {
+	padding: 1rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+#heroes .tab {
+	border: 3px solid #302568;
+	width: 100%;
+	margin-bottom: 2px;
+	background-color: #130c2d;
+}
+#heroes button.title {
+	width: 100%;
+	border: none;
+	background-color: transparent;
+	text-align: left;
+	padding: 0.5rem;
+}
+#heroes .tab.active {
+	border: 3px solid #feeecd;
+    box-shadow: 0 0 10px #ad6b01;
+}
+#heroes .tab.disabled {
+	opacity: 0.35;
+}
+#heroes button.title .image {
+	border: 3px solid #1355b5;
+    padding: 1px;
+    box-shadow: 0 0 10px #306abd;
+    border-radius: 50%;
+    position: relative;
+    width: 60px;
+	height: 60px;
+	display: inline-block;
+	background-color: #5cafe5;
+	float: left;
+}
+#heroes button.title .image img {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+}
+.tier {
+	width: 20px;
+	height:  20px;
+	background-color: red;
+	border-radius: 50%;
+	font-size: 0.75rem;
+	font-weight: 700;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #b2dfdb;
+	border: 2px solid #1355b5;
+	box-shadow: 0 0 4px #1355b5;
+	color: #1355b5;
+}
+#heroes button.title .tier {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin-top: -16px;
+	margin-left: -1px;
+	display: flex;
+}
+.tier.s {
+	background-color: #e1bee7;
+	border: 2px solid #9c27b0;
+	box-shadow: 0 0 4px #9c27b0;
+	color: #9c27b0;
+}
+.tier.s::after {
+	content: "S";
+}
+.tier.a {
+	background-color: #dcedc8;
+	border: 2px solid #72be19;
+	box-shadow: 0 0 4px #72be19;
+	color: #72be19;
+}
+.tier.a::after {
+	content: "A";
+}
+.tier.b {
+	background-color: #b2dfdb;
+	border: 2px solid #009688;
+	box-shadow: 0 0 4px #009688;
+	color: #009688;
+}
+.tier.b::after {
+	content: "B";
+}
+.tier.c {
+	background-color: #ffe0b2;
+	border: 2px solid #ff9800;
+	box-shadow: 0 0 4px #ff9800;
+	color: #ff9800;
+}
+.tier.c::after {
+	content: "C";
+}
+.tier.f {
+	background-color: #ffcdd2;
+	border: 2px solid #f44336;
+	box-shadow: 0 0 4px #f44336;
+	color: #f44336;
+}
+.tier.f::after {
+	content: "F";
+}
+#heroes .title .name {
+	display: inline-flex;
+	color: #d8eeff;
+	font-weight: 600;
+	font-size: 1.25rem;
+	vertical-align: top;
+	align-items: center;
+	margin-left: 1rem;
+	text-shadow: 0px 0px 8px #2778ff;
+	margin-top: 6px;
+	width: 60%;
+}
+
+#heroes .difficulty {
+	display: inline-flex;
+	color: #d8eeff;
+	font-weight: 600;
+	font-size: 0.65rem;
+	vertical-align: top;
+	align-items: center;
+	margin-left: 1rem;
+	text-shadow: 0px 0px 8px #2778ff;
+	text-transform: uppercase;
+	width: 60%;
+}
+#heroes .difficulty.e {
+	color: #dcedc8;
+	text-shadow: 0 0 8px #72be19;
+}
+#heroes .difficulty.e::after {
+	content: "Easy";
+}
+#heroes .difficulty.m {
+	color: #ffe0b2;
+	text-shadow: 0 0 8px #ff9800;
+}
+#heroes .difficulty.m::after {
+	content: "Medium";
+}
+#heroes .difficulty.h {
+	color: #ffcdd2;
+	text-shadow: 0 0 8px #f44336;
+}
+#heroes .difficulty.h::after {
+	content: "Hard";
+}
+#heroes .content {
+	padding: 1rem;
+	background-color: #302568;
+	display: none;
+}
+
+.build .title {
+	color: #d8eeff;
+	font-weight: 600;
+	font-size: 1rem;
+	vertical-align: top;
+	align-items: center;
+	text-shadow: 0px 0px 8px #2778ff;
+	margin-bottom: 1rem;
+}
+.build .talents {
+	display: flex;
+	margin-bottom: 1rem;
+	position: relative;
+}
+.build .talents .talent {
+	margin-right: 0.5rem;
+}
+.build .talents .talent img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.build .talents .talent .name {
+	position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+    margin-bottom: 5px;
+    display: none;
+    z-index: 99;
+    font-weight: 700;
+}
+.build .talents .talent .name::before {
+	content: " ";
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid rgba(0,0,0,1);
+	position: absolute;
+    top: -5px;
+    left: 15px;
+    display: none;
+}
+.build .talents .talent .name .description {
+	font-weight: 400;
+	font-size: 0.85rem;
+	margin-top: 0.25rem;
+}
+.build .text {
+	font-size: 0.85rem;
+}
+.build .text ul {
+	margin-top: 1rem;
+}
+
+#footer {
+	text-align: center;
+	margin: 2rem 0;
+}
+
+
+
+
+
+
+
+
+
+ta,
+ab,
+he {
+	display: inline-flex;
+	position: relative;
+	flex-direction: row;
+	vertical-align: middle;
+	background-color: #130c2d;
+	border-radius: 24px;
+	cursor: pointer;
+}
+ta .icon,
+ab .icon,
+he .icon {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-size: contain;
+}
+ta .name,
+ab .name,
+he .name {
+	color: #d4c2f9;
+	padding: 0 0.5rem;
+}
+ta .description,
+ab .description {
+	content: " ";
+	position: absolute;
+	top: 100%;
+	padding: 0.5rem 0.75rem;
+    display: none;
+	font-weight: 400;
+	font-size: 0.85rem;
+	margin-top: 0.25rem;
+	border-radius: 8px;
+	background-color: #000;
+	z-index: 100;
+	color: #d4c2f9;
+	flex-direction: column;
+}
+ta .description .d-icon,
+ab .description .d-icon {
+	display: none;
+}
+ta .description .d-name,
+ab .description .d-name {
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	line-height: 1;
+}
+ta .description .d-text,
+ab .description .d-text {
+	align-self: stretch;
+}
+
+.talents ta {
+	background-color: transparent;
+	margin-right: 0.5rem;
+}
+.talents ta .icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.talents ta .name {
+	display: none;
+}
