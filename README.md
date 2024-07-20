@@ -15,5 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Heroes of the Storm ARAM Build Guides by NicotineLL (EU)
-Send your feedback or suggestions to askaramguru@gmail.com
+Heroes of the Storm ARAM Build Guides by Nico. Send your feedback or suggestions to askaramguru@gmail.com
