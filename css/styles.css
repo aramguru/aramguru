@@ -205,10 +205,62 @@ li {
 	margin-bottom: 1rem;
 }
 .build .talents {
-	display: flex;
+	
 	margin-bottom: 1rem;
 	position: relative;
 }
+/*.build .talents .lvl {
+	background-color: #130c2d;
+	padding: 0.3rem;
+	margin-right: 0.1rem;
+	margin-bottom: 0.5rem;
+	border-radius: 0.25rem;
+	display: inline-block;
+}
+.build .talents .lvl::before {
+	font-weight: 600;
+	font-size: 0.65rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: #d8eeff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 0.3rem;
+	display: block;
+	opacity: 0.5;
+}
+.build .talents .lvl.on::before {
+	content: "1";
+}
+.build .talents .lvl.fo::before {
+	content: "4";
+}
+.build .talents .lvl.se::before {
+	content: "7";
+}
+.build .talents .lvl.te::before {
+	content: "10";
+}
+.build .talents .lvl.th::before {
+	content: "13";
+}
+.build .talents .lvl.si::before {
+	content: "16";
+}
+.build .talents .lvl.tw::before {
+	content: "20";
+}
+.build .talents .lvl or {
+	font-weight: 600;
+	font-size: 0.65rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: #d8eeff;
+	text-shadow: 0px 0px 8px #2778ff;
+	padding: 0 0.3rem;
+}
+.build .talents .lvl or::before {
+	content: "or";
+}*/
 .build .talents .talent {
 	margin-right: 0.5rem;
 }
@@ -274,6 +326,7 @@ he {
 	display: inline-flex;
 	position: relative;
 	flex-direction: row;
+	flex-wrap: wrap;
 	vertical-align: middle;
 	background-color: #130c2d;
 	border-radius: 24px;
@@ -286,6 +339,7 @@ he .icon {
 	height: 24px;
 	border-radius: 50%;
 	background-size: contain;
+	border: 1px solid #444;
 }
 ta .name,
 ab .name,
@@ -323,10 +377,52 @@ ta .description .d-text,
 ab .description .d-text {
 	align-self: stretch;
 }
-
+.talents {
+	display: flex;
+	gap: 0.3rem;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
 .talents ta {
+	flex-direction: column;
 	background-color: transparent;
-	margin-right: 0.5rem;
+	background-color: #130c2d;
+	padding: 0.3rem;
+	border-radius: 0.25rem;
+}
+.build .talents ta::before {
+	font-weight: 600;
+	font-size: 0.65rem;
+	line-height: 1;
+	text-align: center;
+	text-transform: uppercase;
+	color: #d8eeff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	padding-bottom: 0.3rem;
+    margin-bottom: 0.3rem;
+	width: 100%;
+	opacity: 0.5;
+}
+.build .talents ta:nth-child(1):before {
+	content: "1";
+}
+.build .talents ta:nth-child(2):before {
+	content: "4";
+}
+.build .talents ta:nth-child(3):before {
+	content: "7";
+}
+.build .talents ta:nth-child(4):before {
+	content: "10";
+}
+.build .talents ta:nth-child(5):before {
+	content: "13";
+}
+.build .talents ta:nth-child(6):before {
+	content: "16";
+}
+.build .talents ta:nth-child(7):before {
+	content: "20";
 }
 .talents ta .icon {
 	width: 40px;
