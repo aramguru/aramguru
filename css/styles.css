@@ -339,7 +339,7 @@ he .icon {
 	height: 24px;
 	border-radius: 50%;
 	background-size: contain;
-	border: 1px solid #444;
+	box-shadow: 0 0 2px #bdadf5;
 }
 ta .name,
 ab .name,
@@ -399,7 +399,7 @@ ab .description .d-text {
 	color: #d8eeff;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	padding-bottom: 0.3rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
 	width: 100%;
 	opacity: 0.5;
 }
