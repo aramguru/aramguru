@@ -714,33 +714,81 @@
                         <div class="divider"></div>
                         <div class="build">
                             <div class="title">Lightning Fury Build</div>
-                            <div class="talents" data-hero="cassia" data-build="1311121"></div>
-                            <div class="text"></div>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="build">
-                            <div class="title">Fend Build</div>
-                            <div class="talents" data-hero="cassia" data-build="2211121"></div>
+                            <div class="talents">
+                                <ta>cassia,1,1</ta>
+                                <ta>cassia,4,1</ta>
+                                <ta>cassia,7,1</ta>
+                                <ta>cassia,10,1</ta>
+                                <ta>cassia,13,1</ta>
+                                <ta>cassia,16,2</ta>
+                                <ta>cassia,20,1</ta>
+                            </div>
                             <div class="text"></div>
                         </div>
                         <div class="divider"></div>
                         <div class="build">
                             <div class="title">Auto-attack Build</div>
-                            <div class="talents" data-hero="cassia" data-build="3132333"></div>
-                            <div class="text">Auto-attack build has a very specific use case where the enemy team consists of mostly tanks and bruisers and you don't already have other % damage DPS on your team such as auto-attack Valla or Tychus. You want to keep your distance from the fight (i.e. don't use Fend) especially after taking Gloves of Alacrity.</div>
+                            <div class="talents">
+                                <ta>cassia,1,3</ta>
+                                <ta>cassia,4,1</ta>
+                                <ta>cassia,7,3</ta>
+                                <ta>cassia,10,2</ta>
+                                <ta>cassia,13,3</ta>
+                                <ta>cassia,16,3</ta>
+                                <ta>cassia,20,3</ta>
+                            </div>
+                            <div class="text">Auto-attack build has a very specific use case where you need to take care of tanks and bruisers but don't already have % damage DPS on your team such as <he>zagara</he> or <he>tychus</he>.
+                        </div>
+                        <div class="divider"></div>
+                        <div class="build">
+                            <div class="title">Fend Build</div>
+                            <div class="talents">
+                                <ta>cassia,1,2</ta>
+                                <ta>cassia,4,1</ta>
+                                <ta>cassia,7,1</ta>
+                                <ta>cassia,10,2</ta>
+                                <ta>cassia,13,1</ta>
+                                <ta>cassia,16,2</ta>
+                                <ta>cassia,20,2</ta>
+                            </div>
+                            <div class="text">
+                                Fend is borderline meme build, however it could excel if the enemy team tends to stay close together and they don't have CC to stop your cast.
+                            </div>
                         </div>
                     </div>
                 </div>
-            <!-- a -->
-                <div id="hero-" class="tab">
-                    <button class="title">
-                        <img src="img/heroes/a.png" />
-                        <span class="name">a</span>
-                    </button>
-                    <div class="content">
-                        a
+            <!-- Chen -->
+            <div id="hero-chen" class="tab">
+                <button class="title">
+                    <div class="image">
+                        <img src="img/heroes/chen.png" />
+                        <span class="tier a"></span>
+                    </div>
+                    <div class="name">Chen (incomplete)</div>
+                    <div class="difficulty m"></div>
+                </button>
+                <div class="content">
+                    <div class="about">Chen</div>
+                    <div class="divider"></div>
+                    <div class="build">
+                        <div class="title">Tanking Build</div>
+                        <div class="talents">
+                            <ta>chen,1,2</ta>
+                            <ta>chen,4,1</ta>
+                            <ta>chen,7,1</ta>
+                            <ta>chen,10,1</ta>
+                            <ta>chen,13,4</ta>
+                            <ta>chen,16,1</ta>
+                            <ta>chen,20,3</ta>
+                        </div>
+                        <div class="text">
+                            <ul>
+                                <li>If there's nothing that can stop the cast of your <ab>chen,5</ab> then at level 20 switch <ta>chen,20,3</ta> for <ta>chen,20,4</ta>.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+            </div>
             <!-- Cho'gall -->
                 <div id="hero-chogall" class="tab disabled">
                     <button class="title">
@@ -751,36 +799,156 @@
                         <div class="difficulty">Not available in ARAM</div>
                     </button>
                 </div>
-            <!-- a -->
-                <div id="hero-" class="tab">
-                    <button class="title">
-                        <img src="img/heroes/a.png" />
-                        <span class="name">a</span>
-                    </button>
-                    <div class="content">
-                        a
+            <!-- Chromie -->
+            <div id="hero-chromie" class="tab">
+                <button class="title">
+                    <div class="image">
+                        <img src="img/heroes/chromie.png" />
+                        <span class="tier a"></span>
+                    </div>
+                    <div class="name">Chromie (incomplete)</div>
+                    <div class="difficulty h"></div>
+                </button>
+                <div class="content">
+                    <div class="about">Chromie</div>
+                    <div class="divider"></div>
+                    <div class="build">
+                        <div class="title">Sand Blast Build</div>
+                        <div class="talents">
+                            <ta>chromie,1,1</ta>
+                            <ta>chromie,4,3</ta>
+                            <ta>chromie,7,1</ta>
+                            <ta>chromie,10,2</ta>
+                            <ta>chromie,13,1</ta>
+                            <ta>chromie,16,2</ta>
+                            <ta>chromie,20,3</ta>
+                        </div>
+                        <div class="text">
+                            <ul>
+                                <li>At level 13, if the enemy team has a combo that can delete you in a nano second, consider siwching <ta>chromie,13,1</ta> for <ta>chromie,13,3</ta> to try and dodge the burst. Alternativly, if they have skills that can displace you like <ab>stitches,0</ab> or <ab>artanis,2</ab> then <ta>chromie,13,2</ta> might be a better fit.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="build">
+                        <div class="title">Dragon's Breath Build</div>
+                        <div class="talents">
+                            <ta>chromie,1,2</ta>
+                            <ta>chromie,4,3</ta>
+                            <ta>chromie,7,2</ta>
+                            <ta>chromie,10,2</ta>
+                            <ta>chromie,13,1</ta>
+                            <ta>chromie,16,1</ta>
+                            <ta>chromie,20,2</ta>
+                        </div>
+                        <div class="text">
+                            <ul>
+                                <li>At level 13, if the enemy team has a combo that can delete you in a nano second, consider siwching <ta>chromie,13,1</ta> for <ta>chromie,13,3</ta> to try and dodge the burst. Alternativly, if they have skills that can displace you like <ab>stitches,0</ab> or <ab>artanis,2</ab> then <ta>chromie,13,2</ta> might be a better fit.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            <!-- a -->
-                <div id="hero-" class="tab">
-                    <button class="title">
-                        <img src="img/heroes/a.png" />
-                        <span class="name">a</span>
-                    </button>
-                    <div class="content">
-                        a
+            </div>
+            <!-- D.Va -->
+            <div id="hero-chromie" class="tab">
+                <button class="title">
+                    <div class="image">
+                        <img src="img/heroes/dva.png" />
+                        <span class="tier a"></span>
+                    </div>
+                    <div class="name">D.Va (incomplete)</div>
+                    <div class="difficulty m"></div>
+                </button>
+                <div class="content">
+                    <div class="about">D.Va</div>
+                    <div class="divider"></div>
+                    <div class="build">
+                        <div class="title">Defence Matrix Build</div>
+                        <div class="talents">
+                            <ta>dva,1,2</ta>
+                            <ta>dva,4,2</ta>
+                            <ta>dva,7,3</ta>
+                            <ta>dva,10,1</ta>
+                            <ta>dva,13,1</ta>
+                            <ta>dva,16,2</ta>
+                            <ta>dva,20,4</ta>
+                        </div>
+                        <div class="text">
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="build">
+                        <div class="title">Pew! Pew! Pew! Build</div>
+                        <div class="talents">
+                            <ta>dva,1,2</ta>
+                            <ta>dva,4,3</ta>
+                            <ta>dva,7,3</ta>
+                            <ta>dva,10,1</ta>
+                            <ta>dva,13,3</ta>
+                            <ta>dva,16,2</ta>
+                            <ta>dva,20,3</ta>
+                        </div>
+                        <div class="text">
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            <!-- a -->
-                <div id="hero-" class="tab">
-                    <button class="title">
-                        <img src="img/heroes/a.png" />
-                        <span class="name">a</span>
-                    </button>
-                    <div class="content">
-                        a
+            </div>
+            <!-- Deathwing -->
+            <div id="hero-chromie" class="tab">
+                <button class="title">
+                    <div class="image">
+                        <img src="img/heroes/deathwing.png" />
+                        <span class="tier a"></span>
+                    </div>
+                    <div class="name">Deathwing (incomplete)</div>
+                    <div class="difficulty m"></div>
+                </button>
+                <div class="content">
+                    <div class="about">Deathwing</div>
+                    <div class="divider"></div>
+                    <div class="build">
+                        <div class="title">Molten Flame Build</div>
+                        <div class="talents">
+                            <ta>deathwing,1,3</ta>
+                            <ta>deathwing,4,1</ta>
+                            <ta>deathwing,7,3</ta>
+                            <ta>deathwing,10,2</ta>
+                            <ta>deathwing,13,1</ta>
+                            <ta>deathwing,16,1</ta>
+                            <ta>deathwing,20,2</ta>
+                        </div>
+                        <div class="text">
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="build">
+                        <div class="title">Pew! Pew! Pew! Build</div>
+                        <div class="talents">
+                            <ta>deathwing,1,2</ta>
+                            <ta>deathwing,4,3</ta>
+                            <ta>deathwing,7,3</ta>
+                            <ta>deathwing,10,1</ta>
+                            <ta>deathwing,13,3</ta>
+                            <ta>deathwing,16,2</ta>
+                            <ta>deathwing,20,3</ta>
+                        </div>
+                        <div class="text">
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+            </div>
             <!-- a -->
                 <div id="hero-" class="tab">
                     <button class="title">
