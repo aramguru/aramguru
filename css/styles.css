@@ -8,15 +8,30 @@ body {
 }
 
 .divider {
-	background-color: rgba(255,255,255,0.25);
-	border: 1px solid rgba(0,0,0,0.2);
+	background-color: #130c2d;
 	/* box-shadow: 0 0 4px rgba(255,255,255,0.5); */
-	margin: 1rem 0;
-	height: 3px;
+	margin: 1.5rem 0;
+	height: 4px;
+	border-radius: 32px;
 }
 
 li {
 	margin-bottom: 1rem;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.text-hero {
+	color: #d8eeff;
+    font-weight: 600;
+    font-size: 1.25rem;
+    vertical-align: top;
+    align-items: center;
+    margin-left: 1rem;
+    text-shadow: 0px 0px 8px #2778ff;
 }
 
 .text-red {
@@ -143,6 +158,43 @@ li {
 .tier.f::after {
 	content: "F";
 }
+
+
+
+.role {
+	display: inline-block;
+	background-size: contain;
+	width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #1355b5;
+    box-shadow: 0 0 4px #1355b5;
+	vertical-align: middle;
+}
+.role.t {
+	background-image: url('../img/roles/tank.png');
+}
+.role.b {
+	background-image: url('../img/roles/bruiser.png');
+}
+.role.h {
+	background-image: url('../img/roles/healer.png');
+}
+.role.s {
+	background-image: url('../img/roles/support.png');
+}
+.role.m {
+	background-image: url('../img/roles/melee.png');
+}
+.role.r {
+	background-image: url('../img/roles/range.png');
+}
+
+
+
+
+
+
 #heroes .title .name {
 	display: inline-flex;
 	color: #d8eeff;
